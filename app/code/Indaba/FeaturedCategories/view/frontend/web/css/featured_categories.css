@@ -1,3 +1,23 @@
-#test {
-  color: green;
+.title {
+  font-size: 32px;
+}
+
+.home-page-category-box {
+  border-style: groove;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+}
+.caption {
+    display: block;
 }

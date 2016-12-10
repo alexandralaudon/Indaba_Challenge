@@ -1,9 +1,15 @@
 <?php $categories = $this->getFeaturedCategoryCollection(); ?>
 
-<span id="test">CMS BLOCK HERE</span>
+<h3 class="title">Featured Categories</h3>
+<div class="home-page-category-box">
+  <?php foreach($categories as $category): ?>
+      <div class="item">
+          <a href="<?php echo $category->getUrl(); ?>">
+            <img class="category-image" src="<?php echo $category->getImageUrl()?>" alt="<?php echo $category->getName(); ?>">
+          </a>
+          <span class="caption"><?php echo $category->getName(); ?></span>
+      </div>
+  <?php endforeach; ?>
+</div>
 
-<?php foreach($categories as $category): ?>
-  <div>
-       <?php echo $category->getName(); ?>
-  </div>
-<?php endforeach; ?>
+</br>
