@@ -13,3 +13,8 @@ $ bin/magento admin:user:create --admin-firstname='hello' --admin-lastname='worl
 
 Tutorials used:
 - https://www.atwix.com/magento/adding-attribute-programatically-magento2/
+- http://ibnab.com/en/blog/magento-2/magento-2-frontend-how-to-call-category-collection-on-home-page
+- http://blog.mdnsolutions.com/magento2-create-custom-category-attribute/
+- https://www.mageplaza.com/magento-2-module-development/
+- http://www.learnmagento.com/magento-2-how-to-get-category-collection-2/
+- http://magento.stackexchange.com/questions/108685/how-to-add-a-custom-css-file-in-magento-2
