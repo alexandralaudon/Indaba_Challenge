@@ -10,3 +10,6 @@ I added an admin using
 ```sh
 $ bin/magento admin:user:create --admin-firstname='hello' --admin-lastname='world' --admin-email='hello@world.com' --admin-user='alex' --admin-password='indaba-1-TEST'
 ```
+
+Tutorials used:
+- https://www.atwix.com/magento/adding-attribute-programatically-magento2/
