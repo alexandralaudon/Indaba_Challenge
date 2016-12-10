@@ -36,8 +36,7 @@ class FeaturedCategories extends \Magento\Framework\View\Element\Template
         $collection = $this->_categoryCollection->create()
             ->addAttributeToSelect('*')
             ->addAttributeToFilter('featured_category', '1')
-            ->setPageSize(10);
-
+            ->setPageSize(5);
         return $collection;
     }
 }
